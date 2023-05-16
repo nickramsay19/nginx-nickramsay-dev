@@ -10,6 +10,7 @@ sudo apt -y install nginx
 sudo systemctl start nginx
 ```
 
+Copy the configuration files into `conf.d`.
 ```sh
 cp nickramsay-dev.conf /etc/nginx/conf.d/
 cp console-nickramsay-dev.conf /etc/nginx/conf.d/
