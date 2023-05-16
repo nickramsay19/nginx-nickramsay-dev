@@ -11,7 +11,7 @@ sudo systemctl start nginx
 ```
 
 ```sh
-cp nickramsay-dev-conf /etc/nginx/conf.d/
+cp nickramsay-dev.conf /etc/nginx/conf.d/
 cp console-nickramsay-dev.conf /etc/nginx/conf.d/
 ```
 
