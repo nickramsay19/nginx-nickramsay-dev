@@ -12,8 +12,8 @@ sudo systemctl start nginx
 
 Copy the configuration files into `conf.d`.
 ```sh
-sudo cp nickramsay-dev.conf /etc/nginx/conf.d/
-sudo cp console-nickramsay-dev.conf /etc/nginx/conf.d/
+sudo cp -f ./conf.d/* /etc/nginx/conf.d/
+sudo cp -f ./nginx.conf /etc/nginx/
 ```
 
 Restart nginx with new config.
